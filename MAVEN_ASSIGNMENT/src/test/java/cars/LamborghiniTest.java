@@ -5,8 +5,10 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
+import org.testng.annotations.Test;
 
-public class lamborghiniTest {
+public class LamborghiniTest {
+	@Test
 	public void launchLamborghini()
 	{
 		WebDriver driver= new ChromeDriver();
